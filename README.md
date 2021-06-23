@@ -60,13 +60,13 @@ There were a total of **21,061** 5-star reviews, of those, **56** were paid and 
 
 To complete our bias analysis, we needed to see what percent of the total Vine and non-Vine reviews were 5-star reviews and compare. Using the variables we calculated in previous steps, we determined the following percentages:
 
-#### % 5-Star Vine Reviews
-56 out of 107 Vine Reviews = **52.34%**
+#### % 5-Star Vine Reviews of Total
+56 out of 107 Reviews = **52.34%**
 
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_1.PNG" width="700"> 
 
-#### % 5-Star non-Vine Reviews
-21,005 out of 39,869 Vine Reviews = **52.69%**
+#### % 5-Star non-Vine Reviews of Total
+21,005 out of 39,869 Reviews = **52.69%**
 
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_2.PNG" width="700"> 
 
@@ -76,13 +76,13 @@ Given these results, Vine reviews were no more and less likely to give outdoor p
 
 To further this conclusion, we wanted to find out just how small of sample the 5-star Vine reviews were among all 5-star reviews.
 
-#### % 5-Star Vine Reviews of Total
-56 out of 21,061 Vine Reviews = **0.27%**
+#### % 5-Star Vine Reviews of Total 5-Star
+56 out of 21,061 Reviews = **0.27%**
 
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_3.PNG" width="700"> 
 
-#### % 5-Star Vine Reviews of Total
-21,005 out of 21,061 Vine Reviews = **99.73%**
+#### % 5-Star Vine Reviews of Total 5-Star
+21,005 out of 21,061 Reviews = **99.73%**
 
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_4.PNG" width="700"> 
 
