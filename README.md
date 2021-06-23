@@ -16,7 +16,7 @@ Using a dataset of outdoor products on Amazon, we want to explore any positive o
 [Amazon Outdoor Product Reviews] dataset contained over 2 million total reviews. Because we wanted to determine bias of the vine reviews, we need to filter the reviews to find ones that users thought were helpful. We decided 20 or more total votes would give us a sufficient size dataset to proceed with our bias analysis. To narrow it down further, we retrieved all the rows in the dataframe where the number of helpful votes divided by total votes is equal to or greater than 50%. We named this dataframe: ```vine_helpful_votes_df```
 
 #### First Filtered Dataframe
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_1.PNG" width="500" >
+<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_1.PNG" width="700" >
 
 #### Second Filtered Dataframe
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_2.PNG" width="500" >
