@@ -87,4 +87,4 @@ To further this conclusion, we wanted to find out just how small of sample the 5
 
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_4.PNG" width="700"> 
 
-Because 5-star Vine reviews represent a small portion **0.27%** of all 5-star reviews, they are unlikely to have create positivity bias for reviews in dataset. 
+Because 5-star Vine reviews represent a small portion **0.27%** of all 5-star reviews, they are unlikely to have create positivity bias for reviews on the entire dataset. We could also look at the summary stats - mean, median, and mode - to see the distribution curve of Vine member ratings. This could clue us in even more as it would provide a better visual aid.
