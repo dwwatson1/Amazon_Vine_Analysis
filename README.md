@@ -16,15 +16,15 @@ Using a dataset of outdoor products on Amazon, we want to explore any positive o
 [Amazon Outdoor Product Reviews] dataset contained over 2 million total reviews. Because we wanted to determine bias of the vine reviews, we need to filter the reviews to find ones that users thought were helpful. We decided 20 or more total votes would give us a sufficient size dataset to proceed with our bias analysis. To narrow it down further, we retrieved all the rows in the dataframe where the number of helpful votes divided by total votes is equal to or greater than 50%. We named this dataframe: ```vine_helpful_votes_df```
 
 #### First Filtered Dataframe
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_1.PNG" width="600" >
+<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_1.PNG" width="500" >
 
 #### Second Filtered Dataframe
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_2.PNG" width="600" >
+<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_2.PNG" width="500" >
 
 Using ```vine_helpful_votes_df```, we could filter it once more to find out how many of those reviews were part of the Amazon Vine Program (paid). ```vine_paid_helpful_df = vine_helpful_votes_df.filter("vine == 'Y'")```. Using this filtered dataframe, we determined that there were **107** paid reviews for outdoor products out of **39,976** total.
 
 #### Vine (Paid) Filtered Dataframe
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_3.PNG" width="600" >
+<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_3.PNG" width="500" >
 
 #### Total Helpful Reviews
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_1.PNG" width="600"> 
