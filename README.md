@@ -4,7 +4,7 @@
 
 In this analysis, we are looking at Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy, a fictional company for the purpose of this module, pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. 
 
-Using a dataset of outdoor products on Amazon, we want to explore any positive or negative bias in the Amazon Vine reviews. To accomplish this goal, we will perform an ETL process to extract the dataset, transform the data, connect to an AWS RDS instance. Then we will use PySpark to determine if there is any bias from Vine members.
+Using a dataset of outdoor products on Amazon, we want to explore any positive or negative bias in the Amazon Vine reviews. To accomplish this goal, we will perform an ETL process to extract the dataset, transform the data, connect to an AWS RDS instance. Then we will use PySpark to determine if there is any bias from Vine member reviews.
 
 ### Analysis Resources
 * **Data Sources:** [Amazon Outdoor Product Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Outdoors_v1_00.tsv.gz)
