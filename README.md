@@ -8,6 +8,7 @@ Using a dataset of outdoor products on Amazon, we want to explore any positive o
 
 ### Analysis Resources
 * **Data Sources:** [Amazon Outdoor Product Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Outdoors_v1_00.tsv.gz)
+* **Notebooks** [Amazon_Reviews_ETL](https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb), [Vine_Review_Analysis](https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 * **Software:** Google Collab Notebook, Amazon Web Services, PostgreSQL 11
 
 ## Results of the Analysis
